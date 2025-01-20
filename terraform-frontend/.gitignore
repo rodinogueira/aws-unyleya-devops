@@ -1,0 +1,25 @@
+# Arquivos de configuração local do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Diretório de lock do Terraform
+.terraform/
+
+# Logs de crash do Terraform
+crash.log
+
+# Variáveis sensíveis (não versionar arquivos com informações confidenciais)
+*.tfvars
+*.tfvars.json
+
+# Arquivo de plano gerado pelo comando `terraform plan -out=`
+*.tfplan
+
+# Lock de provedores do Terraform
+.terraform.lock.hcl
+
+# Arquivos de saída ou temporários
+*.log
+*.backup
+*.bak
+*.tmp
