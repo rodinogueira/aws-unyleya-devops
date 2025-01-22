@@ -141,3 +141,69 @@ Você pode criar ENIs adicionais e anexá-las a instâncias EC2 se necessário.
                          +----------------+
 </pre>
 </p>
+
+
+Cultura DevOps
+A cultura DevOps é um conjunto de práticas que visa integrar e automatizar os processos entre os desenvolvedores de software e os profissionais de operações de TI. O objetivo é melhorar a colaboração entre esses dois grupos e permitir um desenvolvimento e uma entrega de software mais rápidos e eficientes. O DevOps enfatiza a comunicação, automação, monitoramento e a colaboração entre equipes de diferentes áreas, a fim de criar um ciclo contínuo de feedback e melhoria.
+
+Princípios Fundamentais do DevOps:
+Colaboração: Redefine as fronteiras entre desenvolvimento e operações, promovendo um ambiente de colaboração contínua.
+Automação: Automatiza o máximo de processos possível para reduzir erros manuais e acelerar as entregas.
+Integração contínua e entrega contínua (CI/CD): A prática de integrar e testar código de forma contínua, e entregar de forma automática em ambientes de produção.
+Monitoramento contínuo: O monitoramento constante do desempenho dos sistemas e aplicativos para detectar problemas rapidamente.
+
+As 3 Maneiras do DevOps:
+
+Fluxo:
+O fluxo se concentra em garantir que as entregas de software sejam feitas de forma contínua e eficiente. Isso é alcançado através da automação do pipeline de desenvolvimento, evitando gargalos e permitindo uma entrega constante.
+Exemplo: Uma equipe que usa Containers (como Docker) e Kubernetes para garantir que as aplicações sejam desenvolvidas e entregues de forma rápida e sem interrupções.
+
+Feedback:
+
+O feedback contínuo é essencial para que as equipes ajustem rapidamente suas estratégias e soluções. Isso é realizado por meio de testes automatizados e monitoramento constante, que permitem identificar problemas antes que se tornem críticos.
+Exemplo: Equipes que usam Testes Automatizados e Monitoramento para detectar erros em tempo real e ajustar o código ou infraestrutura imediatamente.
+
+Aprendizado Contínuo:
+
+O aprendizado contínuo está relacionado ao processo de sempre buscar melhorar as práticas e o processo. Isso envolve avaliar os resultados, realizar retrospectivas e aplicar as lições aprendidas nas iterações futuras.
+Exemplo: Equipes que realizam Retrospectivas Regulares e analisam falhas ou sucessos para melhorar as práticas de desenvolvimento.
+
+2. Criação de um Infográfico
+
+Estrutura do Infográfico
+
+|--------------------------------------------|
+|              Cultura DevOps                |
+|  A cultura DevOps visa integrar e otimizar  |
+|  processos entre desenvolvimento e         |
+|  operações para uma entrega mais rápida e  |
+|  eficiente de software.                    |
+|--------------------------------------------|
+|  Fluxo                                      |
+|  - Automação de CI/CD e entrega contínua    |
+|  - Uso de containers, como Docker e        |
+|    Kubernetes                              |
+|  [Ícone de fluxo contínuo]                  |
+|--------------------------------------------|
+|  Feedback                                   |
+|  - Testes automatizados e monitoramento    |
+|  - Detecção de erros em tempo real         |
+|  [Ícone de feedback]                        |
+|--------------------------------------------|
+|  Aprendizado Contínuo                      |
+|  - Melhoria contínua baseada em análises   |
+|    de dados e retrospectivas               |
+|  [Ícone de evolução/ciclo]                 |
+|--------------------------------------------|
+|  Exemplos Práticos:                        |
+|  Netflix, Amazon, Spotify                  |
+|--------------------------------------------|
+
+3. Reflexão
+Após a criação do infográfico e da apresentação, faça uma reflexão pessoal sobre como a cultura DevOps e suas 3 maneiras podem ser aplicadas no seu ambiente de trabalho ou em projetos futuros. Algumas ideias que você pode incluir no relatório:
+
+Como Aplicar DevOps em Meu Trabalho:
+Fluxo: Automatizar processos de integração e entrega contínua para acelerar o desenvolvimento de novos recursos e reduzir erros manuais.
+Feedback: Implementar testes automatizados e monitoramento para obter feedback constante sobre a qualidade do código e da infraestrutura.
+Aprendizado Contínuo: Adotar a prática de retrospectivas regulares, onde a equipe analisa o que foi bem e o que pode ser melhorado, garantindo o aprendizado contínuo e a evolução das práticas de desenvolvimento.
+
