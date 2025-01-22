@@ -87,3 +87,46 @@ Você pode criar ENIs adicionais e anexá-las a instâncias EC2 se necessário.
 - A VPC e o gateway de internet criam a estrutura básica da rede.
 - Subnets dividem a rede em públicas (com acesso à internet) e privadas (isoladas).
 - Instâncias EC2 usam interfaces de rede (ENIs) para se conectar a essas subnets.
+
+
+                     +----------------------+                                
+                     |    Internet Gateway  |                                
+                     +----------------------+                                
+                                |                                            
+                                |                                            
+                      +---------------------+                                
+                      |    VPC (10.0.0.0/16) |                                
+                      +---------------------+                                
+                                |                                            
+            +-------------------+-------------------+                        
+            |                                       |                        
++---------------------+                     +---------------------+           
+|   Public Subnet      |                     |   Public Subnet     |          
+| (Frontend Subnet)    |                     | (Backend Subnet)    |          
+| 10.0.1.0/24          |                     | 10.0.2.0/24         |          
++---------------------+                     +---------------------+           
+            |                                       |                        
+  +------------------+                         +------------------+          
+  | Frontend ENI      |                         | Backend ENI      |          
+  +------------------+                         +------------------+          
+            |                                       |                        
+  +------------------+                         +------------------+          
+  | Frontend EC2     |                         | Backend EC2      |          
+  | (Nginx + React)  |                         | (Node.js + Mongo)|          
+  +------------------+                         +------------------+          
+            |                                       |                        
+       +----------+                               +----------+               
+       |  Nginx   |                               |  Node.js |               
+       |  Serve   |                               |  App     |               
+       +----------+                               +----------+               
+            |                                             |                 
+            +---------------------------------------------+                 
+                                |                                            
+                      +---------------------+                                
+                      |  Load Balancer       |                                
+                      +---------------------+                                
+                                |                                            
+                                v                                            
+                   +-----------------------+                                 
+                   |  Target Group Backend |                                 
+                   +-----------------------+                                 
