@@ -1,4 +1,4 @@
-# aws-unyleya-devops
+# AWS Unyleya DevOps
 
 Este script do Terraform cria a infraestrutura necessária para implementar uma arquitetura básica de aplicação de front-end e back-end na AWS. Ele cria os recursos essenciais, como VPC, sub-redes, grupos de segurança, instâncias EC2, e um balanceador de carga (Load Balancer). Vou descrever cada parte do processo e, em seguida, fornecer um gráfico para ilustrar a arquitetura.
 
